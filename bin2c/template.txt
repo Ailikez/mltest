@@ -1,0 +1,16 @@
+#ifndef __TEMPLATE__H
+#define __TEMPLATE__H
+/*
+ * prepare data.dat, put it in current dir
+ * please do not modify template.txt
+ * any change made in template.h will be lost
+*/
+const unsigned char data[] =
+{
+    len_of_data, /* len of data */
+    spilt_size, /* bytes an element occupied */
+    data_transformed
+};
+
+
+#endif
