@@ -1,0 +1,11 @@
+#ifndef __${img_name_cap}__H
+#define __${img_name_cap}__H
+#include "${img_name}.h"
+/* image size: ${img_len} */
+static const unsigned char ${img_name_cap}_DAT[${img_row}][${img_col}] =
+{
+    ${img_data}
+};
+
+
+#endif
